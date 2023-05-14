@@ -1,15 +1,5 @@
-# 21-Day Kelvin Powell CSS Challenge - Responsive Design
+## DAY 3: MAX-WIDTH
 
-Welcome to the **21-Day Kelvin Powell CSS Challenge** on responsive design! In this challenge, you will learn how to create responsive websites and web applications using CSS.
+Setting your width in percentage is great and allows for responsiveness, but when it comes to big screens, this can be terrible since it stretches across the entire screen. To fix this, we use max-width. For example, if we set the max-width of a container to 700px, our content can grow and shrink when the width size is below 700px, and once it exceeds it, it stops growing.
 
-## Overview
-
-This challenge is designed to help you improve your CSS skills and learn how to create responsive designs for different screen sizes and devices. Each day of the challenge will focus on a different aspect of responsive design, and you will be provided with resources and examples to help you learn and practice.
-
-## My Participation
-
-I am participating in this challenge and will be using a separate branch for each day of the challenge. The name of each branch will be the corresponding day of the challenge. For example, the branch for day 1 will be called `day1`, the branch for day 2 will be called `day2`, and so on.
-
-By using separate branches, I can keep my work for each day of the challenge organized and easily track my progress throughout the challenge.
-
-I'm excited to start this challenge and improve my CSS skills!
+Using max-width instead of width in pixels or percentage allows for more flexibility in the design and accommodates a wide range of screen sizes. The challenge was great.
