@@ -1,15 +1,19 @@
-# 21-Day Kelvin Powell CSS Challenge - Responsive Design
+# DAY 2: REM AND EM 
 
-Welcome to the **21-Day Kelvin Powell CSS Challenge** on responsive design! In this challenge, you will learn how to create responsive websites and web applications using CSS.
+Both rem and em are relative units that can be used to make your site responsive. 
 
-## Overview
+- `rem` means root em, which means it always derives its value from the root element, which is `html`. 
+- `em` value depends on the parent. 
 
-This challenge is designed to help you improve your CSS skills and learn how to create responsive designs for different screen sizes and devices. Each day of the challenge will focus on a different aspect of responsive design, and you will be provided with resources and examples to help you learn and practice.
+## SETTING FONT-SIZE WITH EM AND REM
 
-## My Participation
+Setting font-size with `em` can result in unexpected results most times. This is because `em` compounds its value from all of its parent elements, and things can quickly grow really big in a nested relationship. 
 
-I am participating in this challenge and will be using a separate branch for each day of the challenge. The name of each branch will be the corresponding day of the challenge. For example, the branch for day 1 will be called `day1`, the branch for day 2 will be called `day2`, and so on.
+`rem`, on the other hand, is fixed and will always get its value from the root `html`.
 
-By using separate branches, I can keep my work for each day of the challenge organized and easily track my progress throughout the challenge.
+## SETTING MARGIN AND PADDING WITH EM AND REM
 
-I'm excited to start this challenge and improve my CSS skills!
+When setting padding and margin, `em` derives its value from the font-size of its parent element. For example, if the parent element font-size is `12px`, then `2em` will be `2 x 12 = 24px`. 
+
+With this, you can make your website's padding and margin responsive, adjusting according to the font-size. 
+

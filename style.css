@@ -1,0 +1,67 @@
+
+
+
+.rem-em{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5rem;
+  gap: 1rem;
+}
+.container{
+  font-size: 1rem;
+}
+.content{
+  font-size: 2em;
+}
+.em p{
+font-size:1em;
+}
+.em {
+  background-color: burlywood;
+  font-size: 1em;
+  padding:2em;
+}
+.rem {
+  background-color: blueviolet;
+  font-size: 2rem;
+  padding: 2rem;
+}
+.rem p{
+  font-size: 2rem;
+}
+.rem h1{
+  font-size: 3rem;
+}
+.em h1{
+  font-size: 3em;
+}
+.btns{
+  padding: 5rem;
+  margin-inline: auto;
+}
+
+.em-btn{
+  padding: 1em 2em;
+  font-size: 1em;
+  margin: 2em;
+}
+.rem-btn{
+  padding:2rem 4rem;
+  font-size: 1rem;
+}
+@media (max-width: 600px) {
+  /* add your styles here */
+  html {
+    font-size: 8px;
+  };
+
+}
+In this example, the styles inside the media query will only apply when the screen width is 600 pixels or less. You can adjust the max-width value to target different screen sizes.
+
+You can also use other CSS properties inside the media query to adjust your styles for small screens. For example, you might want to change the layout of your page or adjust font sizes and spacing to make your content easier to read on a small screen.
+
+
+
+
+
+
