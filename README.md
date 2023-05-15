@@ -1,15 +1,9 @@
-# 21-Day Kelvin Powell CSS Challenge - Responsive Design
+# Day 4: vh, vw, vmax, and vmin
 
-Welcome to the **21-Day Kelvin Powell CSS Challenge** on responsive design! In this challenge, you will learn how to create responsive websites and web applications using CSS.
+Viewport height (`vh`) is used to set the height of an element or container based on the height of the specified viewport. Similarly, viewport width (`vw`) is used to set the width based on the width of the viewport. The difference between setting height and width in percentage and using `vh` or `vw` is that percentage is relative to the size of the parent, while `vh` and `vw` are relative to the viewport.
 
-## Overview
+Additionally, we have `vmax` and `vmin`, which take into account both the viewport width and height. `vmin` takes the minimum value of the two, while `vmax` takes the maximum value. 
 
-This challenge is designed to help you improve your CSS skills and learn how to create responsive designs for different screen sizes and devices. Each day of the challenge will focus on a different aspect of responsive design, and you will be provided with resources and examples to help you learn and practice.
+For example, if you set the size of an element with `vmin` to be `10vmin`, it will shrink and grow along with the minimum value of the viewport. If the width is smaller, it will take 10% of the viewport width (`10vw`), and if the height is smaller, it will take 10% of the viewport height (`10vh`). If the width reaches a point where it can no longer be stretched and it's the smaller of the two dimensions, it will remain at `10vw` and won't grow further, even if the height is expanded.
 
-## My Participation
-
-I am participating in this challenge and will be using a separate branch for each day of the challenge. The name of each branch will be the corresponding day of the challenge. For example, the branch for day 1 will be called `day1`, the branch for day 2 will be called `day2`, and so on.
-
-By using separate branches, I can keep my work for each day of the challenge organized and easily track my progress throughout the challenge.
-
-I'm excited to start this challenge and improve my CSS skills!
+Using these units provides a flexible way to make elements responsive to different viewport sizes, allowing them to adapt and scale accordingly. It is particularly useful when designing layouts that need to adjust dynamically based on the available space within the viewport.
