@@ -4,5 +4,49 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
 }
 
+.container{
+  max-width: 900px;
+  width: 80vw;
+  margin: 0 auto;
+}
+.hero{
+  background-color:#23424A;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-family: 'Roboto', sans-serif;
+  padding:5em 0;
+}
+.hero__text{
+  width: 60%;
+}
+.hero-title{
+font-weight: 900;
+font-size: 7vmin;
+padding-bottom: 0.5em;
+}
+p{
+  padding-bottom: 3em;
+  line-height: 2rem;
+}
+button{
+  background-color: #38CFD9;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  padding: 1.2em 3em;
+  text-transform: uppercase;
+  border-radius: 2rem ;
+  color: #072A2D;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  /* add your styles here */
+  html {
+    font-size: 12px;
+  }
+}
