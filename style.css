@@ -7,6 +7,9 @@
   
 }
 
+p{
+  font-size: 21px;
+}
 .container{
 
   max-width: 900px;
@@ -36,7 +39,7 @@ padding-bottom: 0.5em;
 
 .hero h1{
 font-weight: 900;
-font-size: 7vmin;
+font-size: 48px;
 padding-bottom: 0.5em;
 }
 .hero p{
@@ -93,6 +96,41 @@ padding-bottom: 1em;
   display:flex;
   justify-content: space-between;
 }
+
+.right-sec{
+  background-color: #136c72;
+}
+
+section{
+  margin:2em 0;
+  
+}
+
+.right-sec,
+.left-sec{
+  padding: 3em 0;
+ 
+}
+
+.left-sec h1{
+  color: #136c72;
+}
+.right-sec h1,
+.left-sec h1{
+  padding-bottom:0.725em ;
+  font-size: 36px;
+}
+
+.right-sec{
+  padding:  3em;
+  text-align: center;
+  margin-left: 2em;
+  color: #ffff;
+}
+.right-sec__text{
+  padding-bottom: 3em;
+}
+
 img{
   width: 100%; /*This will ensure our image is responsive*/
 }
