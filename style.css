@@ -1,91 +1,112 @@
-
- 
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  
 }
 
-.container{
-
-  max-width: 900px;
-
+p {
+  font-size: 21px;
+  line-height: 2rem;
+}
+h2 {
+  font-size: 36px;
+}
+.container {
   max-width: 1100px;
 
   width: 80vw;
   margin: 0 auto;
 }
-.hero{
-  background-color:#23424A;
+
+.hero {
+  background-color: #23424a;
   color: white;
-  font-family: 'Press Start 2P', cursive;
-  font-family: 'Roboto', sans-serif;
-  padding:5em 0;
+  font-family: "Press Start 2P", cursive;
+  font-family: "Roboto", sans-serif;
+  padding: 5em 0;
+  margin-bottom: 2em;
 }
-.hero__text{
-  width: 60%;
-}
-
-.hero-title{
-font-weight: 900;
-font-size: 7vmin;
-padding-bottom: 0.5em;
+.hero__text {
+  width: 62%;
 }
 
-
-.hero h1{
-font-weight: 900;
-font-size: 7vmin;
-padding: 0.5em 0;
+.hero-title {
+  font-weight: 900;
+  font-size: 7vmin;
+  padding-bottom: 0.5em;
 }
-.hero p{
 
+.hero h1 {
+  font-weight: 900;
+  font-size: 7vmin;
+  padding: 0.5em 0;
+}
+
+.hero__img {
+  width: 32%;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 7vmin;
+  padding-bottom: 0.5em;
+}
+
+.hero h1 {
+  font-weight: 900;
+  font-size: 48px;
+  padding-bottom: 0.5em;
+}
+.hero p {
   padding-bottom: 3em;
-  line-height: 2rem;
 }
-button{
-  background-color: #38CFD9;
+
+button {
+  background-color: #38cfd9;
   text-decoration: none;
   outline: none;
   border: none;
   padding: 1.2em 3em;
   text-transform: uppercase;
-  border-radius: 2rem ;
-  color: #072A2D;
+  border-radius: 2rem;
+  color: #072a2d;
   font-weight: 700;
   font-size: 1rem;
 }
 
-
-.row{
+img {
+  width: 100%; /*This will ensure our image is responsive*/
+}
+.primary-content p,
+.primary-content h2,
+.sidebar p,
+.sidebar h2 {
+  margin: 1em 0;
+}
+.d-flex {
   display: flex;
-  text-align: center;
-}
-.col{
-  padding: 2em 0;
-}
-.col + .col {
-
-  margin-left: 3em;
-}
-.row-1{
-  padding: 3em 0;
+  justify-content: space-between;
 }
 
-.row-1 h1{
-color:#87629a;
-font-size: 36px;
-padding-bottom: 1em;
+.section-title {
+  color: #136c72;
 }
-.row-2{
+.primary-content {
+  width: 62%;
+}
+.main {
+  margin: 1em 0;
+}
+.sidebar {
+  width: 32%;
   background-color: #136c72;
-  width: 100%;
-  padding: 3em 0;
-
+  color: #ffff;
+  text-align: center;
+  padding: 0 2em;
 }
-.row-2 h1{
-  font-size:36px;
+
+.row-2 h1 {
+  font-size: 36px;
   padding-bottom: 1em;
 }
 
